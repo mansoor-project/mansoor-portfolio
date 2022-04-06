@@ -4,10 +4,16 @@ const circle = document.querySelector('.circle')
 const nav = document.querySelector('.nav')
 const container = document.querySelector('.container')
 const panels = document.querySelectorAll('.panel')
+const links = document.querySelectorAll('.scroll_to')
 // const closep = document.querySelectorAll('#dis')
 // const stagger = document.querySelectorAll('.stagger')
 
-
+links.forEach((item)=>{
+item.addEventListener("click",()=>{
+    const el=document.getElementById(item.getAttribute("data-link"));
+    el.scrollIntoView({behavior:"smooth",block:"center"})
+})
+})
 
 
 
