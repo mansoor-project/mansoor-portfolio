@@ -72,19 +72,20 @@ font-size:0.8em;
 
 .nav{
   position: fixed;
-  top: 60%;
-  left:0%;
+  top: 0%;
+  right:-50%;
   /* transform: translateX(-400%); */
   width: 350px;
   height:450px;
-  /* background-color: red; */
-  z-index: 200;
+  background-color: #ff7979;
+
+  z-index: 26000;
   display: flex;
   /* justify-content: center; */
   align-items: flex-start;
   flex-direction: column;
   clip-path: circle(0% at 0 0);
-  transform-origin: top left;
+  transform-origin: top right;
   transition:clip-path 0.31s ease-in;
 }
 .nav.co{
@@ -899,7 +900,7 @@ font-family: 'koho', sans-serif;
 
 
 .container.show-nav {
-  transform: rotate(-20deg);
+  transform: rotate(20deg);
 }
 
 .circle-container {
