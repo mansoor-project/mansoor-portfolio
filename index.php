@@ -16,7 +16,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     
     <script src="https://kit.fontawesome.com/fbcfe1e8ef.js" crossorigin="anonymous"></script>
-    <title>Rotating Navigation</title>
+    <title>Mansoor Portfolio</title>
   </head>
   <body>
     <div class="circle-container">
