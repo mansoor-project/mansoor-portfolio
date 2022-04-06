@@ -355,12 +355,13 @@
 
 
       
-      $(window).scroll(function() {
-     if($(".nav").hasClass('co')){
+      $(".scroll_to").click(function() {
+    //  if($(".nav").hasClass('co')){
     container.classList.remove('show-nav')
     nav.classList.remove('co')
     circle.classList.remove('active')
-}})
+// }
+})
 
  $(".but").fadeOut("fast");
         $("#submit").click(function(e){
