@@ -944,12 +944,13 @@ nav ul li {
   font-family: 'koho', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #fff;
+  font-weight:600;
   margin: 10px 0;
  
 }
 
 nav ul li i {
+  color: #ff7979;
   font-size: 20px;
   margin-right: 10px;
 }
@@ -961,16 +962,16 @@ nav ul li  {
 
 /*  */
 nav a{
-  color: #fafafa;
+  color: #fff;
   text-decoration: none;
   transition: all 0.5s;
-  font-weight: bold;
+ 
 }
 
-nav a:hover {
+/* nav a:hover {
   color: #FF7979;
   font-weight: bold;
-}
+} */
 
 .content img {
   max-width: 100%;

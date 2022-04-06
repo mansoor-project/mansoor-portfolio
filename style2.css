@@ -70,6 +70,41 @@ font-size:0.8em;
   padding: 50px;
 }
 
+.nav{
+  position: fixed;
+  top: 60%;
+  left:0.5%;
+  transform: translateX(-400%);
+  width: 250px;
+  height:250px;
+  /* background-color: red; */
+  z-index: 200;
+  transition:transform 1s ease-in;
+}
+.nav.co{
+  transform: translateX(0%);
+}
+
+.nav li {
+  font-family: 'koho', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+ 
+  margin: 10px 0;
+  font-weight: 600;
+  list-style-type: none;
+ 
+}
+
+.nav  li i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #ff7979;
+}
+.nav  li a{
+  text-decoration: none;
+  color: #fff;
+}
 .container .bigdesp{
   
   position: relative;

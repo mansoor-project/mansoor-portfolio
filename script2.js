@@ -1,7 +1,7 @@
 const open = document.getElementById('open')
 const close = document.getElementById('close')
 const circle = document.querySelector('.circle')
-// const nav = document.querySelector('nav')
+const nav = document.querySelector('.nav')
 const container = document.querySelector('.container')
 const panels = document.querySelectorAll('.panel')
 // const closep = document.querySelectorAll('#dis')
@@ -56,11 +56,11 @@ function removeActiveClasses() {
 
 open.addEventListener('click', () => 
 {container.classList.add('show-nav');
-// nav.classList.add('come');
+nav.classList.add('co');
 circle.classList.add('active')});
 
 close.addEventListener('click', () =>{ container.classList.remove('show-nav');
-// nav.classList.remove('come');
+nav.classList.remove('co');
 circle.classList.remove('active')});
 
 // window.addEventListener('scroll',closenav)

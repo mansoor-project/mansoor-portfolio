@@ -39,10 +39,10 @@
     <nav>
       <ul>
         <li><i class="fas fa-home"></i><a id="profbut"href="#profile">Home</a></li>
-        <li><i class="fas fa-user-alt"></i><a id="edubut" href="">Education</a></li>
-        <li><i class="fas fa-envelope"></i><a id="projbut" href="">Projects</a></li>
-        <li><i class="fas fa-envelope"></i><a id="skilbut" href="">Skills</a></li>
-        <li><i class="fas fa-envelope"></i><a id="conbut" href="">Contact</a></li>
+        <li><i class="fas fa-graduation-cap"></i><a id="edubut" href="">Education</a></li>
+        <li><i class="fas fa-project-diagram"></i><a id="projbut" href="">Projects</a></li>
+        <li><i class="fab fa-black-tie"></i><a id="skilbut" href="">Skills</a></li>
+        <li><i class="fas fa-link"></i><a id="conbut" href="">Contact</a></li>
       </ul>
     </nav>
     <div class="container">
