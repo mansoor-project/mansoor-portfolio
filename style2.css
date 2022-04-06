@@ -72,24 +72,24 @@ font-size:0.8em;
 
 .nav{
   position: fixed;
-  top: 0%;
+  top: 60%;
   left:0%;
   /* transform: translateX(-400%); */
   width: 350px;
-  height:350px;
-  background-color: red;
+  height:450px;
+  /* background-color: red; */
   z-index: 200;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  align-items: flex-start;
   flex-direction: column;
-  clip-path: circle(8.4% at 0 0);
+  clip-path: circle(0% at 0 0);
   transform-origin: top left;
-  transition:clip-path 1s ease-in;
+  transition:clip-path 0.31s ease-in;
 }
 .nav.co{
   /* transform: translateX(0%); */
-  clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 30% 20%);
 }
 
 .nav li {
