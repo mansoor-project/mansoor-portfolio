@@ -415,13 +415,16 @@ else{
 }
 });
  $(".but").fadeOut("fast");
-        $("#submit").click(function(e){
+       $("#submit").click(function(e){
                 e.preventDefault();
                let fname =  $("#fname").val();
                let lname =  $("#lname").val();
                let email =  $("#email").val();
                let mob   =  $("#mno").val();
                let sub   =  $("#subject").val();
+               var epat=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+              var nump= /^(\+91[\-\s]?)?[0]?(91)?[789]\d{9}$/;
+             
             if(fname ==""||lname==""||email ==""|| mob==""||sub==""){
                 $(".but").fadeIn(1000);
                 $(".but").html("PLEASE FILL ALL THE DETAILS AND VALID");
@@ -433,6 +436,12 @@ else{
 
             }
             else{
+
+              if(nump.test(mob) && epat.test(email) ){
+
+
+
+             
                 $("#submit").css("display","none");
                $.ajax({
                    url : "mail.php",
@@ -457,8 +466,7 @@ else{
                   
                     // alert(data);
                     if(data==1){
-                       
-                        alert("Request Sent sucessufully");
+                      alert("Request Sent sucessufully");
                     
                         $(".but").html("REQUEST SENT");
 
@@ -473,13 +481,24 @@ else{
                      }   
                      else{
                     alert(data);
-                     
+                    $(".but").fadeOut(2000);
+                    $("#reset").trigger("reset");
+                    $("#submit").css("display","block");
+
                      }
                    
 
                     
                    }
                      });
+                    }else{
+                      alert("Please enter a valid Email or Phone Number");
+
+                        $(".but").fadeOut(2000);
+                        $("#reset").trigger("reset");
+                        $("#submit").css("display","block");
+                    }
+
                     };
                     
                           
