@@ -42,8 +42,8 @@ try {
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject =  "Test email using PHPMailer";
-    $mail->Body    =  "<h1>{$firstname}{$lastname}</h1></br><p>{$email}</p></br><p>{$subject}</p></br><p>{$mob}</p>";
+    $mail->Subject =  "CLIENT REQUEST";
+    $mail->Body    =  "<h1>Name:{$firstname}{$lastname}</h1></br><p>mail:{$email}</p></br><p>subject:{$subject}</p></br><p>contact:{$mob}</p>";
     // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     if($mail->send()){
