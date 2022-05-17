@@ -420,7 +420,7 @@
 <div class="footer">
 <div class="mail"><a href="mailto:mansoorahmed5200@gmail.com&subject=Related TO Project Developement&body=Type.....">Mansoorahmed52002@gmail.com</a> </div>
 <div class="number"><a href="tel:9980820674">+919980820674</a></div>
-<div>© 2022 Mansoor All rights reserved.</div>
+<div>© 2022 Mansoor All rights reserved .</div>
 
 </div>
 
