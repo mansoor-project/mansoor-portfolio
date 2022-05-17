@@ -31,7 +31,7 @@
     
 
     <div class="smhighlight">
-      <p>MANSOOR AHMED</p>
+      <p>MANSOOR AHMEDd</p>
       <span>WEB DEVELOPER</span>
     </div>
     <nav>
