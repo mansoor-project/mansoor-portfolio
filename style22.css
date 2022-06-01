@@ -608,10 +608,10 @@ animation: shake 2.5s linear infinite alternate ;
  
 }
 
-.circlep.active #stage{
+.circlep.activec #stage{
   color: red;
 }
-.circlep.active #stage2{
+.circlep.activec #stage2{
   visibility: visible;
   /* transition: 0.2s; */
   /* transition:0.3s linear; */
@@ -703,7 +703,7 @@ left:-10px;
   z-index: 2;
 }
 
-.circlep.active {
+.circlep.activec {
   border-color: var(--line-border-fill);
   transition-delay: 0.3s;
 }
@@ -2140,7 +2140,7 @@ padding-top: 60%;}
   transition: 0.3s ease;
 }
 
-.faq.aactive {
+.faq.active {
   background-color: #fff;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
 }
@@ -2175,7 +2175,7 @@ padding-top: 60%;}
 
 }
 
-.faq.aactive .faq-text {
+.faq.active .faq-text {
   display: block;
 }
 
@@ -2204,16 +2204,16 @@ padding-top: 60%;}
   display: none;
 }
 
-.faq.aactive .faq-toggle .fa-times {
+.faq.active .faq-toggle .fa-times {
   color: #fff;
   display: block;
 }
 
-.faq.aactive .faq-toggle .fa-chevron-down {
+.faq.active .faq-toggle .fa-chevron-down {
   display: none;
 }
 
-.faq.aactive .faq-toggle {
+.faq.active .faq-toggle {
   background-color: #9fa4a8;
 }
 #oc{

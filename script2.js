@@ -55,7 +55,7 @@ const changeSlide = (direction) => {
     }
 
     slideRight.style.transform = `translateY(-${activeSlideIndex * sliderHeight}px)`
-    // slideLeft.style.transform = `translateY(${activeSlideIndex * sliderHeight}px)`
+    
 }
 
 //    }
@@ -172,15 +172,15 @@ prev.addEventListener('click', () => {
 function update() {
     circles.forEach((circle, idx) => {
         if(idx < currentActive) {
-            circle.classList.add('active')
+            circle.classList.add('activec')
             
         } else {
-            circle.classList.remove('active')
+            circle.classList.remove('activec')
            
         }
     })
 
-    const actives = document.querySelectorAll('.active')
+    const actives = document.querySelectorAll('.activec')
 
 
     progress.style.width = (actives.length - 1) / (circles.length - 1) * 100 + '%'
