@@ -2204,16 +2204,16 @@ padding-top: 60%;}
   display: none;
 }
 
-.faq.active .faq-toggle .fa-times {
+.faq.aactive .faq-toggle .fa-times {
   color: #fff;
   display: block;
 }
 
-.faq.active .faq-toggle .fa-chevron-down {
+.faq.aactive .faq-toggle .fa-chevron-down {
   display: none;
 }
 
-.faq.active .faq-toggle {
+.faq.aactive .faq-toggle {
   background-color: #9fa4a8;
 }
 #oc{
